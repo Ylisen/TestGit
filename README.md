@@ -43,7 +43,7 @@ ls
 
 2. 如果没有的话，执行以下指令生成秘钥
 ~~~
-ssh-keygen -t rsa -C "你的邮箱"
+ssh-keygen -t rsa -C "你的邮箱" 
 ~~~
 
 3. 去C:\Users\Administrator.ssh里找到id_rsa.pub，用记事本打开，全选，复制，得到ssh key公钥。    

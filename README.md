@@ -1,7 +1,7 @@
 # TestGit
 test
 
-# 基本命令
+## 基本命令
 ~~~
 1、git init #把这个目录变成Git可以管理的仓库
 
@@ -22,7 +22,7 @@ test
 
 
 
-# 绑定帐户
+## 绑定帐户
 ~~~
 git config --global user.name 'yourname'
 ~~~

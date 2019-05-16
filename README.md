@@ -17,7 +17,9 @@ test
 
 7、git pull --rebase origin master   
 
-8、git push -u origin master #把本地库的所有内容推送到远程库上（第一次需要加-u，后面就不用加了）
+8、git fetch origin dev（dev为远程仓库的分支名）
+
+9、git push -u origin master #把本地库的所有内容推送到远程库上（第一次需要加-u，后面就不用加了）
 ~~~
 
 

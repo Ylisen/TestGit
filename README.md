@@ -11,9 +11,13 @@ test
 
 4、git commit -m “注释” #把文件提交到仓库
 
-5、git remote add origin git@github.com:heimu24/blog-backup.git #本地关联远程仓库
+5、git remote add origin git@github.com:Ylisen/TestGit.git #本地关联远程仓库
 
-6、git push -u origin master #把本地库的所有内容推送到远程库上（第一次需要加-u，后面就不用加了）
+6、git pull --rebase origin master   
+
+7、git clone https://github.com/Ylisen/TestGit.git   #把github上面的仓库克隆到本地
+
+7、git push -u origin master #把本地库的所有内容推送到远程库上（第一次需要加-u，后面就不用加了）
 ~~~
 
 

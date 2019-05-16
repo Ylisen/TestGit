@@ -45,6 +45,7 @@ ls
 ~~~
 ssh-keygen -t rsa -C "你的邮箱" 
 ~~~
+然后一路回车    
 
 3. 去C:\Users\Administrator.ssh里找到id_rsa.pub，用记事本打开，全选，复制，得到ssh key公钥。    
 3.1 进入github, settings      

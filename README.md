@@ -20,6 +20,13 @@ test
 8、git fetch origin dev（dev为远程仓库的分支名）
 
 9、git push -u origin master #把本地库的所有内容推送到远程库上（第一次需要加-u，后面就不用加了）
+
+10、删除文件
+10.1 一是确实要从版本库中删除该文件，那就用命令git rm删掉，并且git commit：    
+    git rm test.txt    
+    git commit -m "remove test.txt"    
+10.2 另一种情况是删错了，因为版本库里还有呢，所以可以很轻松地把误删的文件恢复到最新版本(git checkout其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”。)：    
+    git checkout -- test.txt
 ~~~
 
 
